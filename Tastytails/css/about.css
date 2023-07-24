@@ -268,7 +268,7 @@ letter-spacing: 10px;
 
 /* contact us聯絡我們 */
 .contact_us{
-  background-image: url(/Tastytails/css/index-bg01.jpg);
+  background-image: url(index-bg01.jpg);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
