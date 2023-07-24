@@ -155,7 +155,7 @@ letter-spacing: 10px;
 
 
 .brand_concept{ 
-  background-image: url(../pic-index/index-bg02.png);
+  background-image: url("../pic-index/index-bg02.png");
   width: 1920px;
   height: 800px;
   position: relative;
@@ -268,7 +268,7 @@ letter-spacing: 10px;
 
 /* contact us聯絡我們 */
 .contact_us{
-  background-image: url(../pic-index/index-bg02.png);
+  background-image: url("../pic-index/index-bg01.jpg");
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -327,7 +327,7 @@ letter-spacing: 10px;
 .footer{
   width: 100%; 
   height: 595px;
-  background-image: url(/Tastytails/pic-product/footer-bc.png);
+  background-image: url("../pic-index/footer-bc.png");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
