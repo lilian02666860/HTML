@@ -1,0 +1,262 @@
+body {
+  background-color: #f7f6f2;
+}
+
+/* header */
+.wrap_header {
+  position: sticky;
+  top: 0;
+  padding: 6px 10px;
+  background-color: #f7f6f2;
+  z-index: 3;
+}
+
+.content_nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+.nav_list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav_logo {
+  width: 367px;
+  height: 92px;
+  margin-bottom: 10px;
+}
+
+.nav_list li{
+  padding: 15px 10px; 
+  position: relative;
+}
+
+.nav_list li a{  
+padding: 8px 8px;
+font-family: 'Noto Sans HK', sans-serif;
+font-weight: 400;
+text-decoration: none;
+color: #000;
+letter-spacing: .2em;
+
+}
+
+
+.nav_list li  + li::after {
+content: "|";
+position: absolute;
+left: 0;
+}
+
+/* 麵包屑 */
+
+.breadcrumb_list{
+  margin: auto;
+}
+
+.breadcrumb{
+  display: flex;
+  justify-content: center;
+  margin: 38px auto;
+}
+
+.breadcrumb li{
+  position: relative;
+  
+}
+
+.breadcrumb li a{
+ text-decoration: none; 
+}
+
+.breadcrumb li+li::before{
+content: "/";
+position: absolute;
+left: 0;
+}
+
+/* 商品內容product_content */
+.product_content{
+  width: 1000px;
+  height: 500px;
+  border: 1px solid #000;
+  display: flex;
+  margin: 52px auto;
+}
+
+.product_content  img{
+  width: 500px;
+  height: 500px;
+}
+
+.product_text{
+  padding: 66px 30px;
+  width: 500px;
+  border: 1px solid #000;
+  background-color: #ffbc008f;
+  padding-left: 80px;
+}
+
+.product_text h3{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 49px;
+}
+
+
+.product_text .content{
+  margin-top: 48px;
+  display: block;
+}
+.product_text .content li{
+  margin-top: 5px;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.order_button{
+  margin-top: 90px;
+  display: flex;  
+}
+
+.order_button .buybtn{font-size: 18px;background-color: #000000;border: none;color: #fff;margin-right: 18px;border-radius: 7px;}
+.product_text h5{
+color: #f00;
+margin-top: -28px;
+font-weight: 600;
+}
+
+
+
+.order_button  p{
+margin-right: 30px;
+color: #f00;
+font-size: 18px;
+font-weight: 600;
+}
+.order_button h6{
+color: black;
+  margin: auto;
+  margin-right: 15px;  
+}
+.order_button input{
+ width: 30px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  text-align: center; 
+}
+
+/* hotitem熱門項目 */
+.hotitem{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.hotitem h3{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+  color: black;   
+}
+
+.hotitem ul{
+width: 100%;
+display: flex;
+justify-content: center;
+box-sizing: border-box;  
+}
+.hotitem li{
+border: 2px solid lightgray;
+margin-left: 10px;
+box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
+width: 270px;
+height: 363px;
+box-sizing: border-box;
+}
+
+.hotitem li a{
+  text-decoration: none;
+}
+
+
+.hotitem img{
+padding: 12px 12px;
+margin: auto;
+display: block;
+height: 248px;
+}
+
+
+.hotitem .itemin{
+  padding-left: 15px;
+  width: 251px;
+  background-color: #fff;
+  border-top: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.hotitem h6{
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 10px;
+  color: black;
+}
+.hotitem p{
+font-size: 18px;
+color: #F45E4A;
+bottom: 5px;
+display: block;
+text-align: center;
+margin: auto;  
+font-weight: 600;
+}
+
+
+
+
+
+/* footer */
+.footer{
+  width: 100%; 
+  height: 595px;
+  background-image: url(/個人專題/pic-product/footer-bc.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  
+  
+  }
+  .footer_box{width: 100%;display: flex;justify-content: space-around;align-items: center;margin-bottom: 38px;background-color: #fff;}
+  
+  .footer  ul.social{
+  display: flex;
+  }
+  
+  
+  .footer li{
+    margin: 10px 0;
+  }
+  
+  li a{
+  margin: 10px;
+  
+  }
+  .comment{
+  text-align: center;
+  background-color: #fff;
+  
+  }

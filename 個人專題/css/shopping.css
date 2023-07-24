@@ -1,0 +1,278 @@
+body{
+  background-color: #f7f6f2;
+}
+
+
+h2>span{
+font-size:40px ;
+font-family: 'Belgrano', serif,'Montserrat', sans-serif,Noto Sans HK', sans-serif,Noto Serif HK', serif,'Poppins', sans-serif;
+line-height: 80px;
+letter-spacing: 10px;
+}
+
+
+p{
+font-size: 18px;
+font-family:'Noto Sans HK', sans-serif ;
+line-height: 36px;
+}
+
+/* header */
+.wrap_header {
+  position: sticky;
+  top: 0;
+  padding: 6px 10px;
+  background-color: #f7f6f2;
+  z-index: 3;
+}
+
+.content_nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+.nav_list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav_logo {
+  width: 367px;
+  height: 92px;
+  margin-bottom: 10px;
+}
+
+.nav_list li{
+  padding: 15px 10px; 
+  position: relative;
+}
+
+.nav_list li a{  
+padding: 8px 8px;
+font-family: 'Noto Sans HK', sans-serif;
+font-weight: 400;
+text-decoration: none;
+color: #000;
+letter-spacing: .2em;
+
+}
+
+
+.nav_list li  + li::after {
+content: "|";
+position: absolute;
+left: 0;
+}
+
+/* 跑馬燈*/
+
+.marquee-container {
+  width: 1920px; /* 跑马灯容器的宽度 */
+  overflow: hidden; /* 隐藏超出容器的内容 */
+}
+
+.marquee {
+  display: inline-block; /* 内容以行内元素显示，使其水平滚动 */
+  white-space: nowrap; /* 防止文字换行 */
+  animation: marquee 10s linear infinite; /* 滚动动画，持续时间10秒，线性运动，无限重复 */
+}
+
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100vh); /* 初始位置：向右移动100%（看不见） */
+  }
+  100% {
+    transform: translateX(-100vh); /* 结束位置：向左移动100%（超出容器宽度） */
+  }
+}
+/* banner */
+.shopping_banner img{
+  width: 100%;
+}
+
+
+
+
+/* checkout process結帳流程 */
+.checkout_process{
+width: 185px;
+height: 60px;
+background-color: #FDCC43;
+border-radius: 30px;
+position: relative;
+margin: 32px auto;
+}
+.checkout_process p{position: absolute;right: 11px;bottom: 13px;/* padding: 18px; */}
+
+
+
+
+
+
+
+/* shopping_notes購物須知 */
+
+.shopping_notes{
+display: flex;
+justify-content: center;
+margin: 48px 0px;
+}
+
+.shopping_notes p{
+text-align: left;
+display: flex;
+justify-content: space-around;
+}
+
+.checkout_process > div > p > span{
+  color: #866262;
+}
+
+.checkout_process > div > p > img{
+  margin: -1px 4px;
+}
+
+
+
+
+
+/* shopping 購物車 */
+
+/* 購物車 */
+.dni-new-cart {
+  max-width: 1200px;
+  margin: 0 auto 65px auto;
+  border: 1px solid #fdcc43;
+  background-color: #f9f9f9;
+  height: 425px;
+  position: relative;
+}
+
+/* 表格 */
+.shop_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.shop_table th,
+.shop_table td {
+  border: 1px solid #FDCC43;
+  padding: 10px;
+  text-align: left;
+}
+
+.shop_table th {
+  background-color: #FDCC43;
+}
+
+/* 縮略圖 */
+.product-thumbnail img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+/* 商品名稱 */
+.product-name {
+  font-weight: bold;
+}
+
+/* 移除按鈕 */
+.product-remove-btn {
+  cursor: pointer;
+  background-color: #FDCC43;
+  border: none;
+  padding: 5px 10px;
+}
+
+/* 總金額 */
+.discount__amount .amount {
+  font-weight: bold;
+  color: #f00;
+}
+
+/* 購物車按鈕 */
+.empty-cart,
+.is-form {
+  cursor: pointer;
+  background-color: #fdcc43;
+  color: #000;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+
+.mycred-button input{
+  background-color: #FDCC43;
+ }
+.cart-sidebar{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 85px;
+}
+
+.mycred-button-all{
+  display: flex;
+}
+.mycred-button{
+  margin: 4px 1px;
+}
+
+
+.last_p{
+  position: absolute;
+  left: 110px;
+  bottom: 31px;
+}
+
+
+.empty-cart:hover,
+.is-form:hover {
+  background-color: #fdcc43;
+}
+
+
+
+
+
+/* footer */
+.footer{
+  width: 100%; 
+  height: 595px;
+  background-image: url(/個人專題/pic-product/footer-bc.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  
+  
+  }
+  .footer_box{width: 100%;display: flex;justify-content: space-around;align-items: center;margin-bottom: 38px;background-color: #fff;}
+  
+  .footer  ul.social{
+  display: flex;
+  }
+  
+  .footer li{
+    margin: 10px 0;
+  }
+
+  li a{
+  margin: 10px;
+  
+  }
+  .comment{
+  text-align: center;
+  background-color: #fff;
+  
+  }

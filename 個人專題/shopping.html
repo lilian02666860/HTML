@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>首頁|購物車</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/shopping.css" />
+    <!-- 文字 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belgrano&family=Montserrat&family=Noto+Sans+HK:wght@300;500&family=Noto+Serif+HK&family=Poppins:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="wrap_header">
+      <nav class="content_nav">
+        <a href="index.html" class="nav_logo">
+          <img src="pic-index/logo.svg" alt="nav_logo" />
+        </a>
+        <ul class="nav_list">
+          <li>
+            <a href="index.html">首頁</a>
+          </li>
+          <li>
+            <a href="about.html">關於</a>
+          </li>
+          <li>
+            <a href="product.html">狗狗專區</a>
+          </li>
+          <li>
+            <a href="product.html">貓貓專區</a>
+          </li>
+          <li>
+            <a href="blog.html">貓狗專欄</a>
+          </li>
+          <li>
+            <a href="QA.html">常見問題</a>
+          </li>
+          <li>
+            <a href="#">聯絡我們</a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="pic-index/person.svg" alt="" />
+              登入/註冊</a
+            >
+          </li>
+          <li>
+            <a href="shopping.html">
+              <img src="pic-index/shopping.svg" alt="" />
+              購物車</a
+            >
+          </li>
+          <li>
+            <a href="#">
+              <img src="pic-index/search.svg" alt="" />
+              搜尋</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- banner -->
+    <div class="shopping_banner">
+      <img src="pic-shopping/shopping-banner.jpg" alt="shopping_banner" />
+    </div>
+    <!-- 跑馬燈 -->
+    <div class="marquee-container">
+      <div class="marquee">
+        <p>
+          現在下單，即可享受免運費優惠！讓您的寵物品嚐美味又營養的鮮食，無需為運費煩惱。
+          新品上市！嘗試我們最新推出的特選鮮食，讓您的毛孩品味與健康雙得意！
+          限時優惠！購買滿一定金額，即享折扣，快來為您的寵物採購吧！
+          獨家優惠碼，輸入驚喜折扣！給您的毛孩帶來驚喜與滿足。
+          高評價熱賣！數量有限，抓緊機會帶回家。
+          貓狗雙全！選購貓狗鮮食包組合，照顧多寵物輕鬆省時。
+          營養小知識！了解寵物鮮食的益處，打造更健康的寵物生活。
+          貓咪專屬福利！尋找最適合您的貓咪的鮮食口味。
+        </p>
+      </div>
+    </div>
+    <!-- checkout process結帳流程 -->
+    <div class="checkout_process">
+      <div class="yellow">
+        <p>
+          購物車<img src="pic-shopping/next.svg" alt="" />
+          <span>運送&付款</span>
+        </p>
+      </div>
+    </div>
+    <!-- shopping_notes購物須知 -->
+    <div class="shopping_notes">
+      <p>
+        📢【運送須知】台灣滿NT$1000免運、香港滿NT$2000免運(若選用順豐服務酌收運費$80)、澳門滿NT$3000免運。
+        <br />
+        🔸【會員專屬】滿額禮贈品優惠單筆不累贈、數量有限贈完為止。
+      </p>
+    </div>
+
+    <!-- shopping 購物車 -->
+
+    <div class="dni-new-cart">
+      <div class="">
+        <table class="shop_table cart woocommerce-cart-form__contents">
+          <thead class="shop-table__head">
+            <tr>
+              <th class="product-name" colspan="3">商品</th>
+              <th class="product-price">價格</th>
+              <th class="product-quantity">數量</th>
+              <th class="product-subtotal">總計</th>
+            </tr>
+          </thead>
+          <tbody class="shop-table__body">
+            <tr class="woocommerce-cart-form__cart-item">
+              <td class="product-thumbnail">
+                <a href="#" data-is-giveaway="false">
+                  <span>
+                    <img
+                      width="510"
+                      height="510"
+                      src="/個人專題/pic-product/product-1.jpg"
+                      alt=""
+                      sizes="(max-width: 510px) 100vw, 510px"
+                    />
+                  </span>
+                </a>
+              </td>
+              <td class="product-name" data-title="商品">
+                <a
+                  class="product-name__header"
+                  href="#"
+                  data-is-giveaway="false"
+                >
+                  <span class="product-name__title" style="color: black"
+                    >兔肉無穀全犬配方-4磅</span
+                  >
+                </a>
+                <br />
+              </td>
+              <td class="product-remove">
+                <button
+                  class="product-remove-btn"
+                  data-is-coupon="false"
+                  data-code=""
+                >
+                  <img class="icon__delete" />
+                  <span>移除</span>
+                </button>
+              </td>
+              <td class="product-price">
+                <span class="amount" style="color: red">$1699</span>
+              </td>
+              <td class="product-quantity" data-title="數量">
+                <div class="quantity buttons_added">
+                  <input
+                    type="button"
+                    class="button is-form dni-minus"
+                    value="-"
+                  />
+                  <input
+                    type="number"
+                    id="quantity_abd9b0774d788775b0322762f7420159"
+                    class="input-text qty text"
+                    step="1"
+                    min="0"
+                    max="1911"
+                    name="quantity_abd9b0774d788775b0322762f7420159"
+                    title="數量"
+                    size="4"
+                    placeholder=""
+                    inputmode="numeric"
+                    data-stock="1911"
+                    value="1"
+                  />
+                  <input
+                    type="button"
+                    class="button is-form dni-plus"
+                    value="+"
+                  />
+                </div>
+              </td>
+              <td class="product-subtotal" data-title="總計">
+                <span class="amount" style="color: red">$1699</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="cart-collaterals checkout_coupon">
+        <div class="cart-sidebar">
+          <!-- 折價券 -->
+          <div class="cart-collaterals__discount-section coupon">
+            <div id="cw-mcext_field">
+              <div class="coupon__title">
+                <span>折價券</span>
+              </div>
+              <div id="cw-mcext_input" class="mycred-disabled">
+                <input
+                  type="text"
+                  id="cw-mcext_cred-input"
+                  name="cw-mcext_cred-input"
+                  placeholder="輸入折價券"
+                />
+                <div class="mycred-button-all">
+                  <div class="mycred-button">
+                    <input type="button" value="折抵" />
+                  </div>
+                  <div class="mycred-button">
+                    <input type="button" value="全部折抵" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 優惠碼 -->
+          <div class="wp-coupon-wrapper">
+            <div class="coupon__title"><span>優惠碼</span></div>
+            <input
+              type="text"
+              name="coupon_code"
+              class="input-text"
+              id="coupon_code"
+              placeholder="輸入優惠碼"
+            />
+            <input
+              type="button"
+              class="is-form"
+              name="apply_coupon"
+              value="確認使用"
+            />
+          </div>
+          <!-- 商品小計 -->
+          <div class="discount">
+            <div class="f2e-loading" data-is-open="false">
+              <div class="f2e-loading__inner"></div>
+            </div>
+            <div class="discount__row" style="display: flex">
+              <div class="discount__title">商品總金額</div>
+              <div class="discount__amount">
+                <span class="amount">$1699</span>
+              </div>
+            </div>
+            <div class="discount__row" style="display: flex">
+              <div class="discount__title">商品小計</div>
+              <div class="discount__amount">
+                <span class="amount">$1699</span>
+              </div>
+            </div>
+            <div class="discount__row" style="display: flex">
+              <div class="discount__title">運費</div>
+              <div class="discount__amount">
+                <span class="amount">$0</span>
+              </div>
+            </div>
+            <div class="discount__footer" style="display: flex">
+              <div class="discount__title">總計</div>
+              <div class="discount__amount">
+                <span class="amount">$1699</span>
+              </div>
+            </div>
+            <input
+              type="button"
+              class="is-form"
+              name="apply_coupon"
+              disabled=""
+              value="結帳"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="last_p">
+        <p>
+          目前剩餘 0 幣<br />本次購物最多可折抵 0 元( 100幣等於 1 新台幣
+          )現在結帳馬上獲取共 120 枚幣
+        </p>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="footer_box">
+        <div class="social_media questrial">
+          <p>Follow us</p>
+          <ul class="social">
+            <li class="social_item">
+              <a href="#">
+                <img src="pic-index/instagram.svg" alt="instagram" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="pic-index/facebook.svg" alt="facebook" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="pic-index/twitter.svg" alt="twitter" />
+              </a>
+            </li>
+          </ul>
+          <p class="copy_right">Copyright © TASTY TAILS 20230630</p>
+        </div>
+        <a href="p01-index.html" class="footer_logo">
+          <img src="pic-index/footer-logo.svg" alt="logo" />
+        </a>
+        <div class="compant_info">
+          <div>
+            <p>TASTY TAILS股份有限公司</p>
+            <ul>
+              <li>連絡電話：TEL .03-425-118</li>
+              <li>Email : ooxx@gmail.com.tw</li>
+              <li>公司地址: 桃園市中壢區復興路9樓</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="comment">
+      本網站為緯育TibaMe【CHD103】前端工程師專業技術養成班學員作品,僅供學習、展示之用途。
+    </p>
+  </body>
+</html>
