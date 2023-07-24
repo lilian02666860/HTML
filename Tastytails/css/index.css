@@ -79,11 +79,7 @@ h2>span{
 }
 
 
-p{
-font-size: 18px;
-font-family:'Noto Sans HK', sans-serif ;
-line-height: 36px;
-}
+p{font-size: 18px;font-family:'Noto Sans HK', sans-serif;line-height: 36px;color: black;}
 
 .questrial{
 color: #c79711;
