@@ -154,12 +154,13 @@ letter-spacing: 10px;
 /* Brand Concept品牌理念 */
 
 
-.brand_concept{
+.brand_concept{ 
+  background-image: url(/Tastytails/pic-index/index-bg02.png);
   width: 1920px;
   height: 800px;
   position: relative;
   margin-top: 223px;
-  background-image: url(/Tastytails/pic-index/index-bg02.png);
+ 
 
 }   
 .brand_concept img{
