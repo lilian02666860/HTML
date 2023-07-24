@@ -159,7 +159,7 @@ letter-spacing: 10px;
   height: 800px;
   position: relative;
   margin-top: 223px;
-  background-image: url(/個人專題/pic-index/index-bg02.png);
+  background-image: url(/Tastytails/pic-index/index-bg02.png);
 
 }   
 .brand_concept img{
@@ -269,7 +269,7 @@ letter-spacing: 10px;
 
 /* contact us聯絡我們 */
 .contact_us{
-  background-image: url(/個人專題/pic-index/index-bg01.jpg);
+  background-image: url(/Tastytails/pic-index/index-bg01.jpg);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
