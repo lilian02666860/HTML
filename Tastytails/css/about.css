@@ -155,7 +155,7 @@ letter-spacing: 10px;
 
 
 .brand_concept{ 
-  background-image: url(/Tastytails/pic-index/index-bg02.png);
+  background-image: url(../pic-index/index-bg02.png);
   width: 1920px;
   height: 800px;
   position: relative;
@@ -268,7 +268,7 @@ letter-spacing: 10px;
 
 /* contact us聯絡我們 */
 .contact_us{
-  background-image: url(index-bg01.jpg);
+  background-image: url(../pic-index/index-bg02.png);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
