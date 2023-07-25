@@ -302,11 +302,16 @@ letter-spacing: 10px;
 }
 
 
-.ontact_us_pic img{
+.ontact_us_map iframe{
   width: 100%;
   margin-top: 74px;
   border-radius: 74px;
 }
+.ontact_us_map{
+  width: 600px;
+}
+
+
 
 
 
