@@ -1,383 +1,299 @@
-body {
-  background-color: #f7f6f2;
-}
-
-/* header */
-.wrap_header {
-  position: sticky;
-  top: 0;
-  padding: 6px 10px;
-  background-color: #f7f6f2;
-  z-index: 3;
-}
-
-.content_nav {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
- 
-}
-
-.nav_list{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.nav_logo {
-  width: 367px;
-  height: 92px;
-  margin-bottom: 10px;
-}
-
-.nav_list li{
-  padding: 15px 10px; 
-  position: relative;
-}
-
-.nav_list li a{  
-padding: 8px 8px;
-font-family: 'Noto Sans HK', sans-serif;
-font-weight: 400;
-text-decoration: none;
-color: #000;
-letter-spacing: .2em;
-
-}
-
-
-.nav_list li  + li::after {
-content: "|";
-position: absolute;
-left: 0;
-}
-
 /* banner */
 
-.banner{
-display: flex;
-flex-wrap: wrap;
-box-sizing: border-box;
-padding-right: 10px;
-margin-top: 20px;
-}
-
-.banner img{
-width: 100%;
-vertical-align: top;
-}
-
-.banner .banner_content{
-margin: 170px 56px 0px;
-
-}
-
-
-h2>span{
-  font-size:40px;font-family: 'Belgrano', serif,'Montserrat', sans-serif,'Noto Sans HK', sans-serif,'Noto Serif HK', serif,'Poppins', sans-serif,'Questrial', sans-serif;line-height: 80px;letter-spacing: 10px;font-weight: 300;
-}
-
-
-p{font-size: 18px;font-family:'Noto Sans HK', sans-serif;line-height: 36px;color: black;}
-
-.questrial{
-color: #c79711;
-font-size: 16px;
-font-weight: 700;
-line-height: 30px; /* 187.5% */
-font-family: 'Belgrano', serif,'Montserrat', sans-serif,'Noto Sans HK', sans-serif,'Noto Serif HK', serif,'Poppins', sans-serif,'Questrial', sans-serif;
-}
-
-
-.banner > img {
-width: 1096px;
-height: 699px;
-border-radius: 0px 75px 56px 0px;
-}
-
-.banner .banner_cd_img{
-width: 276px;
-height: 214.088px;
-
-}
-
-/* 中間 banner */
-.middle_banner_fade_up_animate{
-margin-top: 110px;
-}
-.middle_banner_fade_up_animate .middle_banner_content{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-}
-
-.middle_banner_content .txt{
-  margin: 45px;
-}
-
-
-.middle_banner_content img{
-width: 684px;
-height: 414px;
-border-radius: 64px;
-background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-
-}
-
-/* about tast tails介紹 */
-
-.last_banner{
-display: flex;
-justify-content: center;
-margin: 100px 0;
-}
-
-.last_banner img{
-width: 300px;
-height: 450px;
-border-radius: 10px;
-box-shadow: 20px 20px #FDCC43;
-}
-
-.last_banner .last_banner_content{
-margin-right: 138px;
-}
-
-/* 商品分類categroies */
-.dog_categroies h3{
-  font-size: 30px;
-  font-family: 'Belgrano', serif,'Montserrat', sans-serif,'Noto Sans HK', sans-serif,'Noto Serif HK', serif,'Poppins', sans-serif,'Questrial', sans-serif;
-  line-height: 80px;
-  letter-spacing: 10px;
-  font-weight: 300;
-  text-align: center;
-  margin-top: 78px;
-}
-
-
-
-.categroies img{height: 100%;margin-top: 50px;}
-.categroies h4{
-  margin: 50px 0;
-  text-align: center;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 66px;
-  letter-spacing: 4.62px;
-  position: absolute;
-  bottom: -52px;
-  right: 82px;
-}
-
-.categroies_txt{
-  margin: 66px 348px;
-}
-
-.owner_review_txt{
-  margin: 66px 348px;
-}
-
-.categroies .card_list{margin: auto;padding-left: 10px;padding-right: 10px;/* height: 100px; */}
-.categroies .card_list .card{display: flex;flex-wrap: wrap;box-sizing: border-box;margin-top: 20px;background-color: #fff;box-shadow: 10px 10px #fdcc43;border-radius: 300px 300px 0 0;position: relative;height: 291px;}
-.categroies .card .pic img{width: 100%;vertical-align: top;margin: -16px;/* margin-top: 36px; *//* margin-right: -32px; *//* height: 100%; */}
-
-.categroies .card .pic{width: 115px;box-sizing: border-box;/* padding: 18px; */position: absolute;/* margin-bottom: 21px; */margin: right;right: 74px;margin-right: 10xp;bottom: 71px;}
-
-
-/* 新品上市 new-arrival */
-
-/* 陰影 */
-.new_arrival{
-position: relative;
-background-image: url("../pic-index/index-bg02.png");
-}
-
-.shadow{
-width: 1169px;
-height: 469.811px;
-border-radius: 10px 234.906px 234.906px 10px;
-background: #FDCC43;
-position: relative;
-margin: auto;
-}
-.new_arrival .new_arrival_img img{
-width: 1128px;
-height:453px;
-border-radius: 10px 234.906px 234.906px 10px;
-position: absolute;
-bottom: 40px;
-right: 60px;
-}
-
-.dog_snack{
-position: absolute;
-right: 359px;
-bottom: 157px;
-}
-
-.new_arrival_txt{
-  margin: 66px 348px;
-}
-
-
-
-
-/* 暢銷商品 */
-
-.bast_sellers_row{
-  margin-top: 115px;
-}
-
-
-
-.bast_sellers_shadow{
-width: 1169px;
-height: 469.811px;
-border-radius: 10px 234.906px 234.906px 10px;
-background: #FDCC43;
-
-margin: auto;
-}
-
-.bast_sellers_row .pic{
-  position: relative;
-}
-
-.bast_sellers_shadow img{position: absolute;right: 399px;bottom: 51px;}
-
-.bast_sellers_txt{
-  margin: 66px  0px  -28px 325px;
-}
-
-.top1_content{
-  position: absolute;
-  right: 806px;
-  top: 2cm;
-}
-
-
-
-
-
-
-
-
-
-
-/* 飼主心得 */
-.owner_review{
-  background-image: url("../pic-index/index-bg01.jpg");
-}
-
-.owner_review_txt{
-  margin: 66px 348px;
-}
-
-.owner_review .card_list{
-margin: auto;
-padding-left: 10px;
-padding-right: 10px;
-}
-.owner_review .card_list .card{
-display: flex;
-flex-wrap: wrap;
-box-sizing: border-box;
-margin-top: 20px;
-background-color: #fff;
-box-shadow: 10px 10px #fdcc43;
-border-radius: 300px 300px 0 0;
-}
-.owner_review .card .pic img{width: 282px;vertical-align: top;margin: -12px;}
-.owner_review .card .pic{
-width: 50%;
-box-sizing: border-box;
-padding: 10px;
-}
-.card .txt{
-width: 50%;
-box-sizing: border-box;
-padding: 10px;
-}
-.txt h3{
-font-size: 20px;
-font-family:'Noto Sans HK', sans-serif ;
-line-height: 20px;
-font-weight: bold;
-text-align: center;
-}
-
-.rivew_cat_img{
-position: absolute;
-right: -33px;
-bottom: -42px;
-}
-
-@media screen and (min-width:768px) {
-.card_list{
+.banner_index{
   display: flex;
   flex-wrap: wrap;
-  max-width: 1200px;
+  box-sizing: border-box;
+  padding-right: 10px;
+  margin-top: 85px;
+  align-items: center;
+  }
+  
+  .banner_img{
+    width: 73%;
+  }
+  
+  .banner_index img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 0px 75px 56px 0px;
+  }
+  
+
+  .banner_index .banner_content{
+    margin: 0.2% 2%;
+    width: 17%;
+  }
+  
+  
+  h2>span{
+    font-size:44px;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 80px;
+    letter-spacing: 10px;
+    font-weight: 300;
+  }
+  
+  
+  p{font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 36px;
+    color: black;
+  }
+  
+  .questrial{
+  color: #c79711;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  font-family: 'Noto Sans TC', sans-serif;
+  }
+  
+  .banner .banner_cd_img{
+  width: 276px;
+  height: 214.088px;
+  
+  }
+  
+  /* 中間 banner */
+  .middle_banner_fade_up_animate{
+  margin-top: 110px;
+  }
+  .middle_banner_fade_up_animate .middle_banner_content{
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 150px;
+  }
+  
+  .middle_banner_content .txt{
+    margin: 45px;
+  }
+  
+  
+  .middle_banner_content img{
+  width: 684px;
+  height: 414px;
+  border-radius: 64px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  
+  }
+  
+  /* about tast tails介紹 */
+  
+  .last_banner{
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+  }
+  
+  .last_banner img{
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 20px 20px #FDCC43;
+  }
+  
+  .last_banner .last_banner_content{
+  margin-right: 138px;
+  }
+  
+  /* 商品分類categroies */
+  .dog_categroies h3{
+    font-size: 30px;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 80px;
+    letter-spacing: 10px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 78px;
+  }
+  
+  
+  
+  .categroies img{height: 100%;margin-top: 50px;}
+  .categroies h4{
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 50px 0;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 4.62px;
+    position: absolute;
+    bottom: -52px;
+    right: 82px;
+  }
+  
+  .categroies_txt{
+    margin: 66px 348px;
+  }
+  
+  .owner_review_txt{
+    margin: 66px 348px;
+  }
+  
+  .categroies .card_list{margin: auto;padding-left: 10px;padding-right: 10px;/* height: 100px; */}
+  .categroies .card_list .card{display: flex;flex-wrap: wrap;box-sizing: border-box;margin-top: 20px;background-color: #fff;box-shadow: 10px 10px #fdcc43;border-radius: 300px 300px 0 0;position: relative;height: 291px;}
+  .categroies .card .pic img{width: 100%;vertical-align: top;margin: -16px;/* margin-top: 36px; *//* margin-right: -32px; *//* height: 100%; */}
+  
+  .categroies .card .pic{width: 115px;box-sizing: border-box;/* padding: 18px; */position: absolute;/* margin-bottom: 21px; */margin: right;right: 74px;margin-right: 10xp;bottom: 71px;}
+  
+  
+  /* 新品上市 new-arrival */
+  
+  /* 陰影 */
+  .new_arrival{
   position: relative;
-  margin-bottom: 51px;
-}
-.card{
-  margin: 10px;
-  width: calc(100%/4 - 20px);
-}
-.card .pic,.card .txt{
-  width: 100%;
-}
-
-}
-
-/* page_top */
-
-.fixed_icon_top{
-position: fixed;
-bottom: 50px;
-right: 10px;
-}
-
-/* footer */
-.footer{
-width: 100%; 
-height: 595px;
-background-image: url("../pic-index/footer-bc.png");
-background-repeat: no-repeat;
-background-position: top;
-background-size: cover;
-display: flex;
-justify-content: space-between;
-align-items: flex-end;
-
-
-}
-.footer_box{width: 100%;display: flex;justify-content: space-around;align-items: center;margin-bottom: 38px;background-color: #fff;}
-
-.footer  ul.social{
-display: flex;
-}
-
-
-.footer li{
-  margin: 10px 0;
-}
-
-li a{
-margin: 10px;
-
-}
-.comment{
-text-align: center;
-background-color: #fff;
-
-}
-
-
-
-
-
-
-
+  background-image: url("../pic-index/index-bg02.png");
+  }
+  
+  .shadow{
+  width: 1169px;
+  height: 469.811px;
+  border-radius: 10px 234.906px 234.906px 10px;
+  background: #FDCC43;
+  position: relative;
+  margin: auto;
+  }
+  .new_arrival .new_arrival_img img{
+  width: 1128px;
+  height:453px;
+  border-radius: 10px 234.906px 234.906px 10px;
+  position: absolute;
+  bottom: 40px;
+  right: 60px;
+  }
+  
+  .dog_snack{
+  position: absolute;
+  right: 359px;
+  bottom: 157px;
+  }
+  
+  .new_arrival_txt{
+    margin: 66px 348px;
+  }
+  
+  
+  
+  
+  /* 暢銷商品 */
+  
+  .bast_sellers_row{
+    margin-top: 115px;
+  }
+  
+  
+  
+  .bast_sellers_shadow{
+  width: 1169px;
+  height: 469.811px;
+  border-radius: 10px 234.906px 234.906px 10px;
+  background: #FDCC43;
+  
+  margin: auto;
+  }
+  
+  .bast_sellers_row .pic{
+    position: relative;
+  }
+  
+  .bast_sellers_shadow img{position: absolute;right: 399px;bottom: 51px;}
+  
+  .bast_sellers_txt{
+    margin: 66px  0px  -28px 325px;
+  }
+  
+  .top1_content{
+    position: absolute;
+    right: 806px;
+    top: 2cm;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* 飼主心得 */
+  .owner_review{
+    background-image: url("../pic-index/index-bg01.jpg");
+  }
+  
+  .owner_review_txt{
+    margin: 66px 348px;
+  }
+  
+  .owner_review .card_list{
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+  .owner_review .card_list .card{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 10px 10px #fdcc43;
+  border-radius: 300px 300px 0 0;
+  }
+  .owner_review .card .pic img{width: 282px;vertical-align: top;margin: -12px;}
+  .owner_review .card .pic{
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  }
+  .card .txt{
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  }
+  .txt h3{
+  font-size: 20px;
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 20px;
+  font-weight: bold;
+  text-align: center;
+  }
+  
+  .rivew_cat_img{
+  position: absolute;
+  right: 15px;
+  bottom: -42px;
+  }
+  
+  @media screen and (min-width:768px) {
+  .card_list{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    position: relative;
+    margin-bottom: 51px;
+  }
+  .card{
+    margin: 10px;
+    width: calc(100%/4 - 20px);
+  }
+  .card .pic,.card .txt{
+    width: 100%;
+  }
+  
+  }
+  
+  /* page_top */
+  
+  .fixed_icon_top{
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+  }
+  

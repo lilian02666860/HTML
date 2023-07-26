@@ -1,76 +1,7 @@
-body{
-  background-color: #f7f6f2;
-}
 
-
-h2>span{
-font-size:40px ;
-font-family: 'Belgrano', serif,'Montserrat', sans-serif,Noto Sans HK', sans-serif,Noto Serif HK', serif,'Poppins', sans-serif;
-line-height: 80px;
-letter-spacing: 10px;
-}
-
-
-p{
-font-size: 18px;
-font-family:'Noto Sans HK', sans-serif ;
-line-height: 36px;
-}
-
-/* header */
-.wrap_header {
-  position: sticky;
-  top: 0;
-  padding: 6px 10px;
-  background-color: #f7f6f2;
-  z-index: 3;
-}
-
-.content_nav {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
- 
-}
-
-.nav_list{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.nav_logo {
-  width: 367px;
-  height: 92px;
-  margin-bottom: 10px;
-}
-
-.nav_list li{
-  padding: 15px 10px; 
-  position: relative;
-}
-
-.nav_list li a{  
-padding: 8px 8px;
-font-family: 'Noto Sans HK', sans-serif;
-font-weight: 400;
-text-decoration: none;
-color: #000;
-letter-spacing: .2em;
-
-}
-
-
-.nav_list li  + li::after {
-content: "|";
-position: absolute;
-left: 0;
-}
 
 /* banner */
-.banner_pic{
-  width: 100%;
+.banner{
   margin-bottom: 150px;
 }
 
@@ -86,20 +17,14 @@ position: relative;
   width: 100%;
   border-radius: 10px;
 }
+
 .about_pic span{
-
 position: absolute;
-
 bottom: 25px;
-
 left: 58px;
-
 color: #fff;
-
 font-size:30px;
-
-font-family: 'Belgrano', serif,'Montserrat', sans-serif, 'Noto Sans HK', sans-serif,'Noto Serif HK', serif,'Poppins', sans-serif;
-
+font-family: 'Noto Sans TC', sans-serif;
 letter-spacing: 10px;
 }
 
@@ -140,8 +65,7 @@ letter-spacing: 10px;
       }
 .card_list :first-child h3{
       font-size: 30px;
-      font-family:'Noto Sans HK', sans-serif;
-      line-height: 20px;
+      font-family: 'Noto Sans TC', sans-serif;      line-height: 20px;
       font-weight: bold;
       text-align: center;
       position: absolute;
@@ -168,8 +92,7 @@ letter-spacing: 10px;
 
 
 .brand_concept h3{
-  font-family:'Noto Sans HK', sans-serif;
-  font-size: 44px;
+  font-family: 'Noto Sans TC', sans-serif;  font-size: 44px;
   font-style: normal;
   font-weight: 400;
   line-height: 66px; /* 150% */
@@ -216,8 +139,7 @@ letter-spacing: 10px;
 }
 
 .team_introduction_txt h3{
-    font-family: 'Noto Sans HK', sans-serif;
-    font-size: 44px;
+  font-family: 'Noto Sans TC', sans-serif;    font-size: 44px;
     font-style: normal;
     font-weight: 400;
     line-height: 66px;
@@ -246,8 +168,7 @@ letter-spacing: 10px;
   width: 100%;
 }
 .product_promise_txt h3{
- font-family: 'Noto Sans HK', sans-serif;
- font-size: 44px;
+  font-family: 'Noto Sans TC', sans-serif; font-size: 44px;
  font-style: normal;
  font-weight: 400;
  line-height: 66px;
@@ -280,8 +201,7 @@ letter-spacing: 10px;
 }
 
 .contact_us_txt h3{
-  font-family: 'Noto Sans HK', sans-serif;
-  font-size: 44px;
+  font-family: 'Noto Sans TC', sans-serif;  font-size: 44px;
   font-style: normal;
   font-weight: 400;
   line-height: 66px;
@@ -330,7 +250,7 @@ letter-spacing: 10px;
 
 
 /* footer */
-.footer{
+/* .footer{
   width: 100%; 
   height: 595px;
   background-image: url("../pic-index/footer-bc.png");
@@ -361,4 +281,4 @@ letter-spacing: 10px;
   text-align: center;
   background-color: #fff;
   
-  }
+  } */
