@@ -1,284 +1,160 @@
-
-
-/* banner */
-.banner{
-  margin-bottom: 150px;
-}
-
-
 .about_pic {
-width: 1017px;
-height: 308px;
-margin: auto;
-position: relative;
-
+  width: 1017px;
+  height: 308px;
+  margin: auto;
+  position: relative;
 }
-.about_pic img{
+
+.about_pic img {
   width: 100%;
   border-radius: 10px;
 }
 
-.about_pic span{
-position: absolute;
-bottom: 25px;
-left: 58px;
-color: #fff;
-font-size:30px;
-font-family: 'Noto Sans TC', sans-serif;
-letter-spacing: 10px;
+.about_pic span {
+  position: absolute;
+  bottom: 25px;
+  left: 58px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: "Noto Sans TC", sans-serif;
+  letter-spacing: 10px;
 }
 
-/* 介紹卡 */
-  .card_list{
-      padding-left: 10px;
-      padding-right: 10px;
-      display: flex;
-      /* flex-wrap: wrap; */
-      justify-content: center;
-      margin: 100px;
-      }
-.card_list .card{
-      width: 258px;
-      height: 300px;
-      box-sizing: border-box;
-      margin-top: 20px;
-      background-color: #fff;
-      box-shadow: 10px 10px #fdcc43;
-      border-radius: 300px 300px 0 0;
-      /* margin: 50px; */
-      margin: 0 25px;
-      position: relative;
-      }
-.card .pic img{
-      width: 100%;
-      vertical-align: top;
-      }
-.card .pic{
-      width: 50%;
-      box-sizing: border-box;
-      padding: 10px;
-      }
- .card .txt{
-      width: 50%;
-      box-sizing: border-box;
-      padding: 10px;
-      }
-.card_list :first-child h3{
-      font-size: 30px;
-      font-family: 'Noto Sans TC', sans-serif;      line-height: 20px;
-      font-weight: bold;
-      text-align: center;
-      position: absolute;
-      bottom: 112px;
-      right: 67px;
-      }
+.categroies {
+  margin: 100px auto;
+}
 
+.brand_concept {
+  display: flex;
+  justify-content: center;
+  margin: 151px auto;
+}
 
+.brand_concept img {
+  width: 450px;
+  border-radius: 10px;
+  box-shadow: rgb(253, 204, 67) 20px 20px;
+}
 
-/* Brand Concept品牌理念 */
+.brand_concept .last_banner_content {
+  margin-right: 138px;
+}
 
+.brand_concept p {
+  line-height: 3;
+}
 
-.brand_concept{ 
-  background-image: url("../pic-index/index-bg02.png");
-  width: 1920px;
-  height: 800px;
-  position: relative;
+.brand_concept_content {
+  margin-right: 184px;
+  text-align: center;
+  margin-top: 114px;
+}
+
+.team_introduction {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 223px;
-}   
-.brand_concept img{
-  margin-top: 99px;
 }
 
 
+.team_introduction_pic img {
+  
+    border-radius: 50%;
+    border: 4px dashed #000;
+  }
 
-.brand_concept h3{
-  font-family: 'Noto Sans TC', sans-serif;  font-size: 44px;
+
+.team_introduction_txt {
+  margin: 1px 76px;
+}
+
+.team_introduction_txt h3 {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 44px;
   font-style: normal;
   font-weight: 400;
-  line-height: 66px; /* 150% */
+  line-height: 2;
   letter-spacing: 6.776px;
-  margin-bottom: 75px;
-}
-
-.brand_concept .ball{
+  margin-bottom: 41px;
   text-align: center;
-  position: relative;
-}
-.brand_concept .txt{
-  text-align: center;
-  position: absolute;
-  bottom: 131px;
-  right: 770px;
 }
 
-.brand_concept .about_dog{
-  position: absolute;
-  bottom: 132px;
-  left: 448px;
-}
-
-/* team introduction 團隊介紹 */
-
-.team_introduction{
+.product_promise {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 223px;
-}
-
-.team_introduction_pic{
-
-}
-.team_introduction_pic img{
-  width: 100%;
-}
-
-
-.team_introduction_txt{
-  margin: 90px 76px;
-}
-
-.team_introduction_txt h3{
-  font-family: 'Noto Sans TC', sans-serif;    font-size: 44px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 66px;
-    letter-spacing: 6.776px;
-    margin-bottom: 82px;
-    margin-top: -112px;
-    /* text-align: center; */
-    /* margin: auto; */
-    margin-left: 412px;
-}
-
-/* Product Promise 產品承諾 */
-
-.product_promise{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 223px;
-}
-.product_promise_pic{
- width: 468px;
- height: 468px; 
 }
 
 .product_promise_pic img{
+ 
+    border-radius: 50%;
+    border: 4px dashed #000;
+ 
+}
+
+.product_promise_pic img {
   width: 100%;
 }
-.product_promise_txt h3{
-  font-family: 'Noto Sans TC', sans-serif; font-size: 44px;
- font-style: normal;
- font-weight: 400;
- line-height: 66px;
- letter-spacing: 6.776px;
- margin-bottom: 76px;
- margin-top: -99px;
- margin-left: -119px;
+
+.product_promise_txt h3 {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 6.776px;
+  text-align: center;
 }
 
-.product_promise_txt{
-  margin: 21px 129px;
+.product_promise_txt {
+  margin: 0px 129px;
 }
 
-.product_promise_txt p{
-  margin: 41px 0;
+.product_promise_txt p {
+  margin: 41px 0px;
 }
 
-
-/* contact us聯絡我們 */
-.contact_us{
-  background-image: url("../pic-index/index-bg01.jpg");
+.contact_us {
+  background-image: url("../img/index-bg01.jpg");
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 223px;
-  /* height: 800px; */
-}
-.contact_us_txt{
-  margin: 21px 129px;
 }
 
-.contact_us_txt h3{
-  font-family: 'Noto Sans TC', sans-serif;  font-size: 44px;
+.contact_us_txt {
+  margin: 21px 129px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact_us_txt h3 {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 44px;
   font-style: normal;
   font-weight: 400;
-  line-height: 66px;
+  line-height: 2;
   letter-spacing: 6.776px;
-  margin-bottom: 76px;
-  margin-top: 152px;
-  margin-left: 39px;
+  margin-bottom: 20px;
 }
 
-.contact_us_txt li{
-  margin: 24px 0;
+.contact_us_txt li {
+  margin: 24px 0px;
 }
 
-.contact_us_content{
-  /* margin: 18px; */
-  margin-top: 79px;
-  margin-left: 44px;
+.contact_us_content {
+  text-align: left; /* 內容左對齊 */
 }
 
-
-.ontact_us_map iframe{
+.ontact_us_map iframe {
   width: 100%;
   margin-top: 74px;
   border-radius: 74px;
 }
-.ontact_us_map{
-  width: 600px;
-  margin-top: 100px;
+
+.ontact_us_map {
+  width: 500px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* footer */
-/* .footer{
-  width: 100%; 
-  height: 595px;
-  background-image: url("../pic-index/footer-bc.png");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  
-  
-  }
-  .footer_box{width: 100%;display: flex;justify-content: space-around;align-items: center;margin-bottom: 38px;background-color: #fff;}
-  
-  .footer  ul.social{
-  display: flex;
-  }
-  
-  .footer li{
-    margin: 10px 0;
-  }
-
-  li a{
-  margin: 10px;
-  
-  }
-  .comment{
-  text-align: center;
-  background-color: #fff;
-  
-  } */

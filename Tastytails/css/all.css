@@ -1,12 +1,26 @@
 * {
-  font-family: "Noto Sans HK", sans-serif;
+  /* font-family: "Noto Sans HK", sans-serif; */
+  text-decoration: none;
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 body {
   background-color: #f7f6f2;
+  font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    color: #4F4F51;
+    font-size: 18px;
 }
+
+main{
+  width: 1200px;
+}
+
+a{
+  color: #4F4F51;
+}
+
 /* header 導覽列 */
 header {
   width: 100%;
@@ -82,47 +96,142 @@ header {
 
 p {
 font-size: 18px;
-font-family: 'Noto Sans HK', sans-serif;
-line-height: 36px;
+font-family: 'Noto Sans TC', sans-serif;
+line-height: 2;
 font-weight: 400;
+}
+
+
+.h2_title > h2{
+  display: inline-block;
+}
+
+
+h2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h2>span{
 font-size:40px ;
 font-family: 'Noto Sans TC', sans-serif;
-line-height: 80px;
+line-height: 2;
 letter-spacing: 10px;
 font-weight: 300;
 }
 
 
-/* banner */
 
-.banner{
-  width: 100%;
-  position: relative;
+/* banner */
+.banner_index{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-right: 10px;
+  margin-top: 85px;
+  align-items: center;
+  }
+  
+  .banner_img{
+    width: 73%;
+  }
+  
+  .banner_index img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 0px 75px 56px 0px;
+  }
+  
+
+  .banner_index .banner_content{
+    margin: 0.2% 2%;
+    width: 17%;
+  }
+  
+  
+  .questrial{
+  color: #c79711;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5; 
+  font-family: 'Noto Sans TC', sans-serif;
+  }
+  
+  .banner_cd_img{
+  width: 276px;
+  height: 214.088px;
+  }
+
+  .banner_index p{
+    line-height: 3;
+  }
+
+
+
+
+/* 格子 */
+.container {
+  display: flex;
+  margin: 0; /* 清除 container 的外邊距 */
+  border: none; /* 清除 container 的邊框 */
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  margin: 0; /* 清除 box 的外邊距 */
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: #e98181; 設定文字方塊的背景顏色 */
 }
 
-.banner img{
+.container:nth-child(1) {
+  background-color: #fec74f; /* 給第一個方塊上色 */
+}
+
+.container:nth-child(2) {
+  background-color: #fdbb6f; /* 給第二個方塊上色 */
+}
+
+.box img {
+  object-fit: cover; /* 保持圖片比例並填滿整個方塊 */
+}
+
+.image {
   width: 100%;
+  height: 100%;
 }
 
-.title{
-  color: #fff;
+.text {
   text-align: center;
-  position: absolute;
+  padding: 10px; /* 添加內部 padding */
 }
 
+.flex {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
 
+.cloum {
+  margin-left: 0; /* 清除左側欄位的外邊距 */
+}
+.text {
+  color: #4f4f51;
+}
+.text p {
+  font-size: 40px;
+}
 
 /* footer */
 .footer{
   width: 100%; 
   height: 595px;
-  background-image: url("../pic-index/footer-bc.png");
+  background-image: url("../img/footer-bc.png");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -150,6 +259,8 @@ font-weight: 300;
   .comment{
   text-align: center;
   background-color: #fff;
-  
   }
-  
+
+  .footer li img{
+    vertical-align: top;
+  }

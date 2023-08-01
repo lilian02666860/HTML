@@ -9,9 +9,7 @@
 
 /* shopnav */
 .shop-out{
-    padding-top: -16px;
     background-color: #f7f6f2;
-    width: 1920px;
     margin: auto;
     position: relative;
 }
@@ -26,7 +24,7 @@
     width: 260px;
     box-sizing: border-box;
 }
-.search{
+.bottom_search{
     border: 1px solid lightgray;
     padding: 5px;
     margin-left: 10px;

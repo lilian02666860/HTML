@@ -2,98 +2,99 @@
   
   /* banner 購物流程說明 */
   .shopping_process_pic{
-      width: 1920px;
-  }
-  
-  .shopping_process_pic img{
-      display: block;
-      margin: auto;
-  }
-  .shopping_process_txt{
-      margin-left: 878px;
-      margin-bottom: 77px;
-      margin: 75px 365px;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /* Q&A 常見問題 */
-
-
-.qa_content{
-  background-image: url("../pic-index/index-bg01.jpg");
+    width: 1920px;
 }
 
-
-
-  
-  .qa_txt p{
-      color: #c79711;
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 30px; /* 187.5% */
-      font-family: 'Noto Sans TC', sans-serif;
-  }
-
-  .qa_txt{
+.shopping_process_pic img{
+    display: block;
+    margin: auto;
+}
+.shopping_process_txt{
     margin-left: 878px;
     margin-bottom: 77px;
     margin: 75px 365px;
 }
 
-
-.qa_logistics img {
-    margin-right: 5px; /* 調整圖片與文字之間的間距 */
-  }
-
-
-  
-  table {
-      width: 1050px;
-      margin: auto;
-      border-collapse: collapse;
-      
-    }
-  
-  th{
-      background-color: #FDCC43;
-    }
-  
-td{
-    background-color: #fff;
+.shopping_process_txt p{
+  color: #c79711;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  font-family: 'Noto Sans TC', sans-serif;
 }
 
-    th,td {
-      border: 1px solid black;
-      padding: 8px;
-      text-align: left;
-      display: flex;
-      align-items: center;
-    }
-    
 
-  .qa_logistics p{
-    margin: 44px 0;
-    text-align: center;
-  } 
-    
-  .qa_product p{
-    margin: 44px 0;
-    text-align: center;
-  } 
 
-  .qa_product{
-    margin-bottom: 74px;
+
+
+
+
+/* Q&A 常見問題 */
+
+
+.qa_content{
+background-image: url("../pic-index/index-bg01.jpg");
+}
+
+
+.qa_txt p{
+    color: #c79711;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.qa_txt{
+  margin: 75px auto;
+}
+
+
+.qa_logistics img {
+  margin-right: 5px; /* 調整圖片與文字之間的間距 */
+}
+
+
+
+table {
+    width: 1050px;
+    margin: auto;
+    border-collapse: collapse;
+    
   }
 
+th{
+    background-color: #FDCC43;
+  }
+
+td{
+  background-color: #fff;
+}
+
+  th,td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
   
 
+.qa_logistics p{
+  margin: 44px 0;
+  text-align: center;
+} 
   
-  
-  
+.qa_product p{
+  margin: 44px 0;
+  text-align: center;
+} 
+
+.qa_product{
+  margin-bottom: 74px;
+}
+
+
+
+
+

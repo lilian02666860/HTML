@@ -13,18 +13,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500&display=swap"
       rel="stylesheet"
     />
   </head>
-  <body>
-    <!-- header -->
+  <body cz-shortcut-listen="true">
     <!-- header -->
     <header>
       <div class="navigation">
         <div class="logo">
           <a href="index.html">
-            <img src="pic-index/logo.svg" alt="logo" />
+            <img src="img/logo.svg" alt="logo" />
           </a>
         </div>
         <nav>
@@ -33,23 +32,23 @@
             <li><a href="product.html">商品專區</a></li>
             <li><a href="blog.html">貓狗專欄</a></li>
             <li><a href="QA.html">常見問題</a></li>
-            <li><a href="#">聯絡我們</a></li>
+            <li><a href="contactus.html">聯絡我們</a></li>
           </ul>
         </nav>
         <div class="icon">
           <div class="login">
             <a href="#">
-              <img src="pic-index/person.svg" alt="login" />
+              <img src="img/person.svg" alt="login" />
             </a>
           </div>
           <div class="shopping">
             <a href="shopping.html">
-              <img src="pic-index/shopping.svg" alt="shopping" />
+              <img src="img/shopping.svg" alt="shopping" />
             </a>
           </div>
           <div class="search">
             <a href="#">
-              <img src="pic-index/search.svg" alt="search" />
+              <img src="img/search.svg" alt="search" />
             </a>
           </div>
         </div>
@@ -57,70 +56,116 @@
     </header>
 
     <!-- banner -->
-    <div class="banner">
-      <img src="pic-about/about-banner.jpg" alt="about-banner" />
-      <div class="title">
+    <div class="banner_index">
+      <div class="banner_img">
+        <img src="img/banner.png" alt="banner" class="banner-img" />
+      </div>
+      <div class="banner_content">
+        <div class="h2_title">
+          <h2 class="fade_left_animate">
+            <span> 關於我們 </span>
+          </h2>
+          <h2 class="fade_down_animate">
+            <span>ABOUT</span>
+          </h2>
+        </div>
+        <p>TastyTails美味尾巴</p>
+        <br />
+        <p>關愛你的毛孩，從餐桌開始</p>
+      </div>
+    </div>
+
+    <!-- 介紹 -->
+    <div class="categroies">
+      <div class="categroies_txt">
         <h2>
           <span>關於我們</span>
-        </h2>
-        <h2>
-          <span>ABOUT</span>
+          <span class="questrial">About Us</span>
         </h2>
       </div>
+      <div class="categroies_content">
+        <div class="flex">
+          <div class="cloum">
+            <div class="container">
+              <div class="box">
+                <img src="img/Rectangle.jpg" alt="" class="image" />
+              </div>
+              <a href="#">
+                <div class="box">
+                  <div class="text">
+                    <p>團隊介紹</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="container">
+              <a href="#">
+                <div class="box">
+                  <div class="text">
+                    <p>品牌理念</p>
+                  </div>
+                </div>
+              </a>
+              <div class="box">
+                <img src="img/Rectangle 178 (2).jpg" alt="" class="image" />
+              </div>
+            </div>
+          </div>
+          <div class="cloum">
+            <div class="container">
+              <div class="box">
+                <img src="img/Rectangle 178 (1).jpg" alt="" class="image" />
+              </div>
+              <a href="#">
+                <div class="box">
+                  <div class="text">
+                    <p>公司資訊</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="container">
+              <a href="#">
+                <div class="box">
+                  <div class="text">
+                    <p>產品承諾</p>
+                  </div>
+                </div>
+              </a>
+              <div class="box">
+                <img src="img/Rectangle 178 (3).jpg" alt="" class="image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="about_pic">
-      <img src="pic-about/about-img.jpg" alt="about-img-cat" />
-      <span>TastyTails美味尾巴 - 關愛你的毛孩，從餐桌開始</span>
-    </div>
-    <!-- 介紹卡 -->
-    <div class="card_list">
-      <div class="card">
-        <div class="txt">
-          <h3>品牌理念</h3>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="txt">
-          <h3>團隊介紹</h3>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="txt">
-          <h3>產品承諾</h3>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="txt">
-          <h3>聯絡我們</h3>
-        </div>
-      </div>
-    </div>
     <!-- Brand Concept品牌理念 -->
 
     <div class="brand_concept">
-      <div class="ball">
-        <img src="pic-about/brand_concept_ball.png" alt="" />
-        <div class="txt">
-          <h3>品牌理念</h3>
-          <p>
-            我們堅信寵物的飲食就像是愛的表達方式。
-            <br />
-            我們為您的毛孩準備了營養滿分又美味的食物，
-            <br />
-            讓他們感受到你對他們的寵愛。
-            <br />
-            同時，我們還提供專業的寵物養育知識與建議，
-            <br />
-            讓您成為一位卓越的寵物家長。
-          </p>
+      <div class="brand_concept_content">
+        <div class="h2_title">
+          <h2>
+            <span> 品牌理念 </span>
+          </h2>
         </div>
+        <p>
+          我們堅信寵物的飲食就像是愛的表達方式。
+          <br />
+          我們為您的毛孩準備了營養滿分又美味的食物，
+          <br />
+          讓他們感受到你對他們的寵愛。
+          <br />
+          同時，我們還提供專業的寵物養育知識與建議，
+          <br />
+          讓您成為一位卓越的寵物家長。
+        </p>
       </div>
-      <div class="about_dog">
-        <img src="pic-about/about-dog.svg" alt="about-dog" />
+      <div class="pic">
+        <div class="brand_concept_shadow">
+          <img src="img/brand_concept (4).jpg" alt="last-banner" />
+        </div>
       </div>
     </div>
 
@@ -145,7 +190,7 @@
         </p>
       </div>
       <div class="team_introduction_pic">
-        <img src="pic-about/about-team.png" alt="about-team" />
+        <img src="img/about-team.jpg" alt="about-team" />
       </div>
     </div>
 
@@ -153,7 +198,7 @@
 
     <div class="product_promise">
       <div class="product_promise_pic">
-        <img src="pic-about/Product Promise.png" alt="Product Promise" />
+        <img src="img/Product Promise.jpg" alt="Product Promise" />
       </div>
       <div class="product_promise_txt">
         <h3>產品承諾</h3>
@@ -184,8 +229,8 @@
     <!-- contact us聯絡我們 -->
     <div class="contact_us">
       <div class="contact_us_txt">
-        <h3>聯絡我們</h3>
         <div class="contact_us_content">
+          <h3>公司資訊</h3>
           <p>TASTY TAILS股份有限公司</p>
           <ul>
             <li>連絡電話：TEL .03-425-118</li>
@@ -208,29 +253,29 @@
       <!-- footer -->
       <div class="footer">
         <div class="footer_box">
-          <div class="social_media questrial">
+          <div class="social_media">
             <p>Follow us</p>
             <ul class="social">
               <li class="social_item">
                 <a href="#">
-                  <img src="pic-index/instagram.svg" alt="instagram" />
+                  <img src="img/instagram.svg" alt="instagram" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="pic-index/facebook.svg" alt="facebook" />
+                  <img src="img/facebook.svg" alt="facebook" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="pic-index/twitter.svg" alt="twitter" />
+                  <img src="img/twitter.svg" alt="twitter" />
                 </a>
               </li>
             </ul>
             <p class="copy_right">Copyright © TASTY TAILS 20230630</p>
           </div>
           <a href="p01-index.html" class="footer_logo">
-            <img src="pic-index/footer-logo.svg" alt="logo" />
+            <img src="img/footer-logo.svg" alt="logo" />
           </a>
           <div class="compant_info">
             <div>

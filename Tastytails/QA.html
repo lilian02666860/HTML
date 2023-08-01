@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -23,7 +23,7 @@
       <div class="navigation">
         <div class="logo">
           <a href="index.html">
-            <img src="pic-index/logo.svg" alt="logo" />
+            <img src="img/logo.svg" alt="logo" />
           </a>
         </div>
         <nav>
@@ -32,42 +32,46 @@
             <li><a href="product.html">商品專區</a></li>
             <li><a href="blog.html">貓狗專欄</a></li>
             <li><a href="QA.html">常見問題</a></li>
-            <li><a href="#">聯絡我們</a></li>
+            <li><a href="contactus.html">聯絡我們</a></li>
           </ul>
         </nav>
         <div class="icon">
           <div class="login">
             <a href="#">
-              <img src="pic-index/person.svg" alt="login" />
+              <img src="img/person.svg" alt="login" />
             </a>
           </div>
           <div class="shopping">
             <a href="shopping.html">
-              <img src="pic-index/shopping.svg" alt="shopping" />
+              <img src="img/shopping.svg" alt="shopping" />
             </a>
           </div>
           <div class="search">
             <a href="#">
-              <img src="pic-index/search.svg" alt="search" />
+              <img src="img/search.svg" alt="search" />
             </a>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- banner 購物流程說明 -->
-    <div class="shopping_process_content">
-      <div class="banner_pic">
-        <img src="pic-qa/qa-banner.jpg" alt="qa-banner" />
+    <!-- banner  -->
+    <div class="banner_index">
+      <div class="banner_img">
+        <img src="img/banner (5).png" alt="banner" class="banner-img" />
       </div>
-      <div class="shopping_process">
-        <div class="shopping_process_txt">
-          <h2><span>訂購流程</span></h2>
-          <p>shopping process</p>
+      <div class="banner_content">
+        <div class="h2_title">
+          <h2 class="fade_left_animate">
+            <span>常見問題</span>
+          </h2>
+          <h2 class="fade_down_animate">
+            <span>☛FAQ</span>
+          </h2>
         </div>
-        <div class="shopping_process_pic">
-          <img src="pic-qa/shopping process.png" alt="shopping process" />
-        </div>
+        <p>TastyTails美味尾巴</p>
+        <br />
+        <p>專業解答，無憂飼養</p>
       </div>
     </div>
 
@@ -75,32 +79,33 @@
 
     <div class="qa_content">
       <div class="qa_txt">
-        <h2><span>常見問題</span></h2>
-        <p>Q&A</p>
+        <h2>
+          <span>常見問題</span>
+          <span class="questrial">FAQ</span>
+        </h2>
       </div>
       <div class="qa_logistics">
         <p>貨運相關</p>
         <table>
           <tr>
-            <th>
-              <img src="pic-qa/arrow-bottom.svg" alt="arrow-bottom" />
-              Q：運費說明
-            </th>
+            <th class="question">Q：運費說明</th>
           </tr>
           <tr>
-            <td>A：購買商品滿1000元達免運標準，未滿1000元運費80元唷！</td>
+            <td class="answer">
+              A：購買商品滿1000元達免運標準，未滿1000元運費80元唷！
+            </td>
           </tr>
           <tr>
-            <td><img src="pic-qa/arrow-right.svg" alt="" /> Q：貨運配送時間</td>
+            <td class="question">Q：貨運配送時間</td>
           </tr>
           <tr>
-            <td><img src="pic-qa/arrow-right.svg" alt="" /> Q：付款方式說明</td>
+            <td class="question">Q：付款方式說明</td>
           </tr>
           <tr>
-            <td><img src="pic-qa/arrow-right.svg" alt="" /> Q：發票相關疑問</td>
+            <td class="question">Q：發票相關疑問</td>
           </tr>
           <tr>
-            <td><img src="pic-qa/arrow-right.svg" alt="" /> Q：退換貨說明</td>
+            <td class="question">Q：退換貨說明</td>
           </tr>
         </table>
       </div>
@@ -109,29 +114,20 @@
         <p>商品相關</p>
         <table>
           <tr>
-            <th>
-              <img src="pic-qa/arrow-bottom.svg" alt="arrow-bottom" />
+            <th class="question">
               Q：此網站提供的寵物鮮食和飼料是否符合營養需求？
             </th>
           </tr>
           <tr>
-            <td>
+            <td class="answer">
               A：是的，我們的寵物鮮食和飼料經過營養師的精心配方，以確保滿足寵物的營養需求，並提供均衡的飲食選擇。
             </td>
           </tr>
           <tr>
-            <td>
-              <img
-                src="pic-qa/arrow-right.svg"
-                alt=""
-              />Q：是否有提供特定寵物營養需求的鮮食選項？
-            </td>
+            <td class="question">Q：是否有提供特定寵物營養需求的鮮食選項？</td>
           </tr>
           <tr>
-            <td>
-              <img src="pic-qa/arrow-right.svg" alt="" />
-              Q：如何確保此網站上的知識專欄文章可信度？
-            </td>
+            <td class="question">Q：如何確保此網站上的知識專欄文章可信度？</td>
           </tr>
         </table>
       </div>
@@ -139,29 +135,29 @@
       <!-- footer -->
       <div class="footer">
         <div class="footer_box">
-          <div class="social_media questrial">
+          <div class="social_media">
             <p>Follow us</p>
             <ul class="social">
               <li class="social_item">
                 <a href="#">
-                  <img src="pic-index/instagram.svg" alt="instagram" />
+                  <img src="img/instagram.svg" alt="instagram" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="pic-index/facebook.svg" alt="facebook" />
+                  <img src="img/facebook.svg" alt="facebook" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="pic-index/twitter.svg" alt="twitter" />
+                  <img src="img/twitter.svg" alt="twitter" />
                 </a>
               </li>
             </ul>
             <p class="copy_right">Copyright © TASTY TAILS 20230630</p>
           </div>
           <a href="p01-index.html" class="footer_logo">
-            <img src="pic-index/footer-logo.svg" alt="logo" />
+            <img src="img/footer-logo.svg" alt="logo" />
           </a>
           <div class="compant_info">
             <div>

@@ -1,0 +1,51 @@
+
+
+
+.contact_txt{
+    margin: 75px auto;
+}
+
+/* from */
+
+.form_container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .form_container > h2 {
+    text-align: center;
+  }
+
+  .form_container form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form_container label {
+    margin: 10px 0px;
+  }
+
+  .form_container input,
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .form_container button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #fec74f;
+    color: #000;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .form_container button:hover {
+    background-color: #f96b0c;
+  }

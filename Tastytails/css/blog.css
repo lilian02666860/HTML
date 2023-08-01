@@ -2,22 +2,22 @@
 
 
 .shopping_process_txt p{
-    color: #c79711;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 30px; /* 187.5% */
-    font-family: 'Noto Sans TC', sans-serif;
+  color: #c79711;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  font-family: 'Noto Sans TC', sans-serif;
 }
 
 /* banner */
 .blog_banner{
-  width: 100%;
+width: 100%;
 }
 
 .blog_content{
-  display: flex;
-  justify-content: center;
-  margin: 77px auto;
+display: flex;
+justify-content: center;
+margin: 77px auto;
 }
 
 
@@ -27,29 +27,29 @@
 
 /* blog專欄 */
 .blog_content h3{
-  font-size: 20px;
-  font-family: 'Noto Sans TC', sans-serif;
-  line-height: 20px;
-  font-weight: bold;
+font-size: 20px;
+font-family: 'Noto Sans TC', sans-serif;
+line-height: 2;
+font-weight: bold;
 }
 
 
 .blog_content .card{
-  display: flex;
-  align-items: center;
-  margin: 43px 10px;
-  
+display: flex;
+align-items: center;
+margin: 43px 10px;
+
 }
 
 .blog_list .pic{
-  width: 293px;
-  height: 162px;
-  border-radius: 10px;
+width: 293px;
+height: 162px;
+border-radius: 10px;
 }
 
 .blog_list .txt{
-  margin: 0px 24px;
-  /* padding: -15px; */
+margin: 0px 24px;
+/* padding: -15px; */
 }
 
 
@@ -57,28 +57,28 @@
 /* sidebar側邊欄 */
 
 .sidebar {
-  padding: 20px;
-  /* background-color: #f0f0f0; */
+padding: 20px;
+/* background-color: #f0f0f0; */
 }
 .category-title {
-  font-weight: bold;
-  margin: 32px 0;
+font-weight: bold;
+margin: 32px 0;
 }
 .article-list {
-  list-style-type: none;
+list-style-type: none;
 }
 .article-item {
-  /* position: relative; */
-  border-bottom: 1px solid #000;
-  width: 276px;
-  padding: 14px;
+/* position: relative; */
+border-bottom: 1px solid #000;
+width: 276px;
+padding: 14px;
 }
 .sidebar .search{
-  border: 1px solid lightgray;
-  padding: 5px;
-  margin-left: -3px;
-  border-radius: 30px;
-  padding-left: 10px;
+border: 1px solid lightgray;
+padding: 5px;
+margin-left: -3px;
+border-radius: 30px;
+padding-left: 10px;
 }
 
 
@@ -86,43 +86,43 @@
 
 
 /* .article-item::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -5px;
-  width: 100%;
-  border-bottom: 1px solid black;
+content: "";
+position: absolute;
+left: 0;
+bottom: -5px;
+width: 100%;
+border-bottom: 1px solid black;
 } */
 
 
 
 /* page */
 .page{
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .page img{
-  width: 19.467px;
-  height: 34.629999999999995px;
+width: 19.467px;
+height: 34.629999999999995px;
 }
 .page button{
-  width: 40px;
-  height: 40px;
-  margin-top: 30px;
-  background-color: #fff;
-  text-align: center;
+width: 40px;
+height: 40px;
+margin-top: 30px;
+background-color: #fff;
+text-align: center;
 }
 
 .page .button_page{
-  background-color: #FFCF47;
+background-color: #FFCF47;
 }
 
 
 /* hover */
 .page button:hover{
-  background-color: #ff9100;
-  
+background-color: #ff9100;
+
 }
 
 
