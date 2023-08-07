@@ -541,14 +541,13 @@ font-weight: 300;
   display: flex;
   flex-direction: column;
   align-items: center; /* 置中對齊 */
+  justify-content: center;
 }
 
 .new_arrival_img img {
-  max-width: 100%; /* 圖片最大寬度為100% */
-  height: auto; /* 自適應高度 */
+ max-width: 100%; /* 圖片最大寬度為100% */
+  height: auto;
   aspect-ratio: 1/1; /* 鎖定長寬比為1:1 */
-  position: relative;
-  overflow: hidden;
 }
 
 .new_arrivel_content {
@@ -573,6 +572,7 @@ font-weight: 300;
     } .owner_review{
       display: none;
     }
+    
   }
 
 /* 桌機 */

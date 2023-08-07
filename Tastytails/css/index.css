@@ -89,7 +89,6 @@
 .new_arrival {
   background-image: url("../img/index-bg01.jpg");
   width: 100%;
-  height: 845px;
   position: relative;
   margin: 100px auto;
 }
@@ -100,8 +99,8 @@
 }
 
 .shadow {
-  width: 1169px;
-  height: 469.811px;
+  width:100%;
+  height:auto;
   border-radius: 10px 234.906px 234.906px 10px;
   background: rgb(253, 204, 67);
   position: relative;
@@ -112,8 +111,8 @@
   display: block;
   position: relative;
   margin: 20px auto;
-  width: 1128px;
-  height: 453px;
+  width: 100%; /* 使用百分比寬度 */
+  height: auto; /* 讓高度自適應 */
   border-radius: 10px 234.906px 234.906px 10px;
   box-shadow: rgb(253, 204, 67) 19px 20px 0px;
 }
@@ -138,6 +137,8 @@
   justify-content: space-around;
   align-items: flex-start;
 }
+
+
 /* 暢銷商品 Bast Sellers */
 .bast_sellers {
   display: flex;
@@ -284,6 +285,7 @@ h3 {
   font-size: 10px;
 }
 
+/* 飼主心得 */
 .owner_review {
   background-image: url("../img/index-bg01.jpg");
 }
