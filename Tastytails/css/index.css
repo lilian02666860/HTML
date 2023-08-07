@@ -182,18 +182,18 @@ li.slide {
 
 .slide:nth-of-type(1) {
   background-color: rgb(242, 226, 5);
-  background-image: url("/Tastytails/img/slide1.jpg");
+  background-image: url("../img/slide1.jpg");
 }
 
 .slide:nth-of-type(2) {
   background-color: rgb(242, 92, 5);
-  background-image: url("/Tastytails/img/slide2.jpg");
+  background-image: url("../img/slide2.jpg");
   left: 100%;
 }
 
 .slide:nth-of-type(3) {
   background-color: rgb(73, 95, 140);
-  background-image: url("/Tastytails/img/slide3.jpg");
+  background-image: url("../img/slide3.jpg");
   left: 200%;
 }
 
