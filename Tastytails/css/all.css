@@ -49,7 +49,7 @@ header {
   /* border: 1px solid red; */
 }
 .navigation .icon {
-  width: 150px;
+  width: 54px;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -186,15 +186,15 @@ font-weight: 300;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #e98181; 設定文字方塊的背景顏色 */
+ 
 }
 
 .container:nth-child(1) {
-  background-color: #fec74f; /* 給第一個方塊上色 */
+  background-color: #fec74f; 
 }
 
 .container:nth-child(2) {
-  background-color: #fdbb6f; /* 給第二個方塊上色 */
+  background-color: #fdbb6f; 
 }
 
 .box img {
@@ -264,3 +264,271 @@ font-weight: 300;
   .footer li img{
     vertical-align: top;
   }
+
+
+  /* header 導覽列 */
+  header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999999;
+  }
+  .navigation {
+    display: flex;
+    background-color: #f7f6f2;
+    height: 80px;
+    margin: 0;
+    padding: 1px;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .navigation .logo img {
+    width: 226px;
+  }
+  .navigation ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 16px 16px;
+  }
+  .navigation .icon {
+    width: 54px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navigation .icon img {
+    width: 16px;
+    height: 16px;
+  }
+  /* border隔開，也可用偽元素 */
+  .navigation .login .search {
+    border-left: 1.25px solid rgb(0, 0, 0);
+    padding-left: 25px;
+    border-right: 1.25px solid rgb(0, 0, 0);
+    padding-right: 25px;
+  }
+
+  .navigation ul li a {
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .navigation ul li a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    right: 0;
+    transition: 0.4s;
+  }
+
+  /* rwd */
+  /* 漢堡 */
+  .hb label {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .hb span {
+    width: 80%;
+    height: 4px;
+    background-color: #000;
+    transition: transform 0.5s; /* 加入過渡效果 */
+  }
+  .main-nav {
+    display: flex;
+  }
+  .main-nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  /* 按鈕 */
+  #nav_switch {
+    display: none;
+  }
+
+  /* 手機 */
+  @media screen and (max-width: 768px) {
+    .main-nav {
+      position: absolute;
+      width: 100%;
+      margin: 0px 5%;
+      background-color: #fec74f;
+      top: 100%;
+      left: 0;
+      flex-direction: column;
+      align-items: center;
+      display: none;
+    }
+
+    .main-nav li {
+      width: 100%;
+    }
+  
+    .main-nav a {
+      align-items: center;
+    }
+    #nav_switch:checked + .navigation .main-nav {
+      display: flex;
+      width: 100%;
+      margin: auto;
+    }
+    #nav_switch:checked + .navigation .hb span:nth-child(1) {
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      transform: rotate(45deg);
+      transition: 0.5s;
+    }
+    #nav_switch:checked + .navigation .hb span:nth-child(2) {
+      display: none;
+    }
+    #nav_switch:checked + .navigation .hb span:nth-child(3) {
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      transform: rotate(-45deg);
+      transition: 0.5s;
+    }
+    /* 裝飾品 */
+    .rivew_cat_img,.dog_snack{
+      display: none;
+    }
+
+    /* 其餘版面 */
+    /* 第一個banner */
+    .banner_index{
+      width: 100%;
+      display: flex;
+      flex-direction: column; /* 垂直排列 */
+    }
+    .banner_img {
+      width: 100%;
+      text-align: center; /* 圖片置中 */
+     
+    }
+    .banner_index img{
+      border-radius: 0px ;
+      max-width: 100%; /* 不超出螢幕寬度 */
+      height: auto; /* 圖片保持原始比例 */
+    }
+    .banner_index .banner_content{
+      width: 100%;
+      margin: auto;
+    }
+    .banner_content p{
+text-align: center;
+    }
+    .h2_title {
+      text-align: center; /* 文字置中 */
+    }
+    .fade_left_animate {
+      text-align: center; /* 文字置中 */
+    }
+
+    /* 第二個banner */
+    .middle_banner_fade_up_animate{
+      width: 100%;
+      display: flex;
+      flex-direction: column; /* 垂直排列 */
+    }
+    .middle_banner_content{
+      width: 100%;
+      text-align: center; /* 圖片置中 */
+    }
+    .middle_banner_content img{
+      border-radius: 10px ;
+      width: 80%; /* 不超出螢幕寬度 */
+      height: auto; /* 圖片保持原始比例 */
+      margin-right: 0;
+    }
+    .middle_banner_fade_up_animate .middle_banner_content{
+      width: 100%;
+      margin: auto;
+    }
+    .middle_banner_content h2{
+      margin: 30px 65px;
+    }
+    .middle_banner_content p{
+      text-align: center;
+      margin: 0px 72px;
+    }
+    .h2_title {
+      text-align: center; /* 文字置中 */
+    }
+    .fade_left_animate {
+      text-align: center; /* 文字置中 */
+    }
+  /* 第三個banner */
+
+    .last_banner{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+
+
+
+    
+    .categroies{
+      display: none;
+    }.new_arrival{
+      display: none;
+    }
+    .bast_sellers{
+      display: none;
+    } .owner_review{
+      display: none;
+    }
+  }
+
+/* 桌機 */
+  @media screen and (min-width: 768px) {
+    .hb {
+      display: none;
+    }
+    .main-nav {
+      flex-direction: row;
+    }
+
+
+  }
+
+/* 
+
+  .header_menu,
+  .icon{
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      z-index: 3;
+      max-height: 0px;
+      overflow: hidden;
+      -webkit-transition: .5s ease;
+      -o-transition: .5 ease;
+      transition: .5 ease;
+      text-align: center;
+      margin: 0 -.5px;
+      } */
+
+
+
+
+
+
+
+
+

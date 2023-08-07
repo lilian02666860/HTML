@@ -19,14 +19,17 @@
   <body>
     <!-- header -->
     <header>
+      <input type="checkbox" name="" id="nav_switch" />
+
       <div class="navigation">
         <div class="logo">
           <a href="index.html">
             <img src="img/logo.svg" alt="logo" />
           </a>
         </div>
-        <nav>
-          <ul>
+
+        <nav class="main-nav">
+          <ul class="header_menu menu_show">
             <li><a href="about.html">關於我們</a></li>
             <li><a href="product.html">商品專區</a></li>
             <li><a href="blog.html">貓狗專欄</a></li>
@@ -34,6 +37,7 @@
             <li><a href="contactus.html">聯絡我們</a></li>
           </ul>
         </nav>
+
         <div class="icon">
           <div class="login">
             <a href="#">
@@ -45,11 +49,15 @@
               <img src="img/shopping.svg" alt="shopping" />
             </a>
           </div>
-          <div class="search">
-            <a href="#">
-              <img src="img/search.svg" alt="search" />
-            </a>
-          </div>
+        </div>
+
+        <!-- 漢堡 -->
+        <div class="hb">
+          <label for="nav_switch">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
         </div>
       </div>
     </header>
@@ -57,14 +65,13 @@
     <!-- banner -->
     <div class="banner_index">
       <div class="banner_img">
-        <img src="img/banner (1).png" alt="banner" class="banner-img" />
+        <img src="img/banner (1).jpg" alt="banner" class="banner-img" />
       </div>
       <div class="banner_content">
         <div class="h2_title">
           <h2 class="fade_left_animate">
             <span> 寵愛味蕾 </span>
-          </h2>
-          <h2 class="fade_down_animate">
+            <br />
             <span> 無限寵愛 </span>
           </h2>
         </div>
@@ -220,56 +227,78 @@
 
     <!-- 暢銷商品 Bast Sellers -->
     <div class="bast_sellers">
-      <div class="bast_sellers_txt">
+      <div class="new_arrival_txt">
         <h2>
           <span>暢銷商品</span>
-          <span class="questrial">Bast sellers</span>
+          <span class="questrial"> Bast Sellers </span>
         </h2>
       </div>
-      <div class="slider">
-        <div class="slider-container">
-          <div class="big-image">
-            <img id="large" src="img/slider (1).jpg" alt="大圖" />
-          </div>
-          <div id="smallPanel" class="small-images">
-            <img src="img/slider (2).jpg" alt="小圖" />
-            <img src="img/slider (3).jpg" alt="小圖" />
-            <img src="img/slider (4).jpg" alt="小圖" />
-            <img src="img/slider (1).jpg" alt="小圖" />
-          </div>
+      <ul class="slides">
+        <input type="radio" id="control-1" name="control" checked />
+        <input type="radio" id="control-2" name="control" />
+        <input type="radio" id="control-3" name="control" />
+        <!--  Left/Right Button  -->
+        <div class="navigator slide-1">
+          <label for="control-3">
+            <i class="fas fa-chevron-left"></i>
+          </label>
+          <label for="control-2">
+            <i class="fas fa-chevron-right"></i>
+          </label>
         </div>
-
-        <script>
-          function showLarge(e) {
-            document.getElementById("large").src = e.target.src;
-          }
-
-          function init() {
-            let smalls = document.querySelectorAll("#smallPanel img");
-            for (let i = 0; i < smalls.length; i++) {
-              smalls[i].onclick = showLarge;
-            }
-          }
-
-          window.addEventListener("load", init, false);
-        </script>
-
-        <div class="newfood">
-          <div class="newcontainer">
-            <div class="explain fsttit">
-              <h3>健康蔬食雞肉配方-寵物鮮食包</h3>
-
-              <div class="aboutfood">
-                <p>
-                  結合健康雞肉和蔬菜的主食鮮食包提供均衡營養組合
-                  <br />
-                  支持毛孩一天所需營養
-                </p>
-              </div>
-            </div>
-          </div>
+        <div class="navigator slide-2">
+          <label for="control-1">
+            <i class="fas fa-chevron-left"></i>
+          </label>
+          <label for="control-3">
+            <i class="fas fa-chevron-right"></i>
+          </label>
         </div>
-      </div>
+        <div class="navigator slide-3">
+          <label for="control-2">
+            <i class="fas fa-chevron-left"></i>
+          </label>
+          <label for="control-1">
+            <i class="fas fa-chevron-right"></i>
+          </label>
+        </div>
+        <!--  /Left/Right Button  -->
+        <li class="slide">
+          <div class="slide_text">
+            <h3>營養全能歐米茄-3磷蝦糕</h3>
+            <p>
+              選用新鮮歐米茄-3豐富的磷蝦製成，提供全面的營養保障
+              <br />
+              促進寵物皮膚、毛髮和心臟的健康
+            </p>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="slide_text">
+            <h3>健康蔬食雞肉配方-寵物鮮食包</h3>
+            <p>
+              結合健康雞肉和蔬菜的主食鮮食包提供均衡營養組合
+              <br />
+              支持毛孩一天所需營養
+            </p>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="slide_text">
+            <h3>營養豐富牛肉鮮食-寵物鮮食包</h3>
+            <p>
+              含有高品質牛肉的寵物主食鮮食包。提供豐富蛋白質和維生素
+              <br />
+              維持寵物的健康體態
+            </p>
+          </div>
+        </li>
+        <div class="controls-visible">
+          <label for="control-1"></label>
+          <label for="control-2"></label>
+          <label for="control-3"></label>
+        </div>
+      </ul>
     </div>
 
     <!-- 飼主心得 -->
