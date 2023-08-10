@@ -19,14 +19,17 @@
   <body>
     <!-- header -->
     <header>
+      <input type="checkbox" name="" id="nav_switch" />
+
       <div class="navigation">
         <div class="logo">
           <a href="index.html">
             <img src="img/logo.svg" alt="logo" />
           </a>
         </div>
-        <nav>
-          <ul>
+
+        <nav class="main-nav">
+          <ul class="header_menu menu_show">
             <li><a href="about.html">關於我們</a></li>
             <li><a href="product.html">商品專區</a></li>
             <li><a href="blog.html">貓狗專欄</a></li>
@@ -34,6 +37,7 @@
             <li><a href="contactus.html">聯絡我們</a></li>
           </ul>
         </nav>
+
         <div class="icon">
           <div class="login">
             <a href="#">
@@ -45,11 +49,15 @@
               <img src="img/shopping.svg" alt="shopping" />
             </a>
           </div>
-          <div class="search">
-            <a href="#">
-              <img src="img/search.svg" alt="search" />
-            </a>
-          </div>
+        </div>
+
+        <!-- 漢堡 -->
+        <div class="hb">
+          <label for="nav_switch">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
         </div>
       </div>
     </header>
@@ -307,6 +315,11 @@
                 <img src="img/twitter.svg" alt="twitter" />
               </a>
             </li>
+            <li>
+              <a href="#">
+                <img src="img/line.svg" alt="line" />
+              </a>
+            </li>
           </ul>
           <p class="copy_right">Copyright © TASTY TAILS 20230630</p>
         </div>
@@ -325,6 +338,7 @@
         </div>
       </div>
     </div>
+
     <p class="comment">
       本網站為緯育TibaMe【CHD103】前端工程師專業技術養成班學員作品,僅供學習、展示之用途。
     </p>

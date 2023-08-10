@@ -19,14 +19,17 @@
   <body>
     <!-- header -->
     <header>
+      <input type="checkbox" name="" id="nav_switch" />
+
       <div class="navigation">
         <div class="logo">
           <a href="index.html">
             <img src="img/logo.svg" alt="logo" />
           </a>
         </div>
-        <nav>
-          <ul>
+
+        <nav class="main-nav">
+          <ul class="header_menu menu_show">
             <li><a href="about.html">關於我們</a></li>
             <li><a href="product.html">商品專區</a></li>
             <li><a href="blog.html">貓狗專欄</a></li>
@@ -34,6 +37,7 @@
             <li><a href="contactus.html">聯絡我們</a></li>
           </ul>
         </nav>
+
         <div class="icon">
           <div class="login">
             <a href="#">
@@ -45,11 +49,15 @@
               <img src="img/shopping.svg" alt="shopping" />
             </a>
           </div>
-          <div class="search">
-            <a href="#">
-              <img src="img/search.svg" alt="search" />
-            </a>
-          </div>
+        </div>
+
+        <!-- 漢堡 -->
+        <div class="hb">
+          <label for="nav_switch">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
         </div>
       </div>
     </header>
@@ -297,24 +305,29 @@
           <ul class="social">
             <li class="social_item">
               <a href="#">
-                <img src="pic-index/instagram.svg" alt="instagram" />
+                <img src="img/instagram.svg" alt="instagram" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="pic-index/facebook.svg" alt="facebook" />
+                <img src="img/facebook.svg" alt="facebook" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="pic-index/twitter.svg" alt="twitter" />
+                <img src="img/twitter.svg" alt="twitter" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="img/line.svg" alt="line" />
               </a>
             </li>
           </ul>
           <p class="copy_right">Copyright © TASTY TAILS 20230630</p>
         </div>
         <a href="p01-index.html" class="footer_logo">
-          <img src="pic-index/footer-logo.svg" alt="logo" />
+          <img src="img/footer-logo.svg" alt="logo" />
         </a>
         <div class="compant_info">
           <div>
