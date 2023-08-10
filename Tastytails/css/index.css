@@ -113,14 +113,14 @@
   margin: 20px auto;
   width: 100%; /* 使用百分比寬度 */
   height: auto; /* 讓高度自適應 */
-  border-radius: 10px 234.906px 234.906px 10px;
-  box-shadow: rgb(253, 204, 67) 19px 20px 0px;
+  border-radius: 10px;
+ 
 }
 
 .dog_snack {
   position: absolute;
-  right: 359px;
-  bottom: 157px;
+  right: 136px;
+  bottom: 170px;
 }
 
 .new_arrival h3 {

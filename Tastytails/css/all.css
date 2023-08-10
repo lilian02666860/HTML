@@ -545,33 +545,29 @@ font-weight: 300;
 }
 
 .new_arrival_img img {
- max-width: 100%; /* 圖片最大寬度為100% */
+  width:100%;
   height: auto;
-  aspect-ratio: 1/1; /* 鎖定長寬比為1:1 */
 }
 
 .new_arrivel_content {
   text-align: center; /* 置中對齊 */
 }
 
+/* 暢銷商品 Bast Sellers */
 
+.bast_sellers{
+   width: 100%;
+} 
+    
+/* 飼主心得 */
+.owner_review{
+  display: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-    .bast_sellers{
-      display: none;
-    } .owner_review{
-      display: none;
-    }
+/* 頁尾 */
+footer{
+  display: none;
+}
     
   }
 
