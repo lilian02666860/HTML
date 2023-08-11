@@ -353,6 +353,11 @@ header {
   text-decoration: none;
   color: #fff;
 }
+.fixed_icon_top {
+  position: fixed;
+  right: 0;
+  bottom: 10px;
+}
 
 /* 按鈕 */
 #nav_switch {
@@ -524,21 +529,3 @@ header {
     flex-direction: row;
   }
 }
-
-/* 
-
-  .header_menu,
-  .icon{
-      position: absolute;
-      top: 100%;
-      left: 0;
-      right: 0;
-      z-index: 3;
-      max-height: 0px;
-      overflow: hidden;
-      -webkit-transition: .5s ease;
-      -o-transition: .5 ease;
-      transition: .5 ease;
-      text-align: center;
-      margin: 0 -.5px;
-      } */
