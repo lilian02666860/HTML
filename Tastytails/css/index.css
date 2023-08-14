@@ -294,10 +294,6 @@ h3 {
   background-image: url("../img/index-bg01.jpg");
 }
 
-.owner_review_txt {
-  margin: 66px 348px;
-}
-
 .owner_review .card_list {
   margin: 26px auto;
   padding-left: 10px;
@@ -305,6 +301,7 @@ h3 {
 }
 
 .owner_review .card_list .card {
+  border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
@@ -520,6 +517,9 @@ h3 {
     z-index: -1;
   }
   /* 飼主心得 */
+  .owner_review h2 span {
+    display: flex;
+  }
   .card_list {
     display: flex;
     flex-wrap: wrap;
@@ -531,7 +531,7 @@ h3 {
   }
 
   .card {
-    margin: 10px;
+    margin: 50px;
     width: 100%; /* 卡片寬度佔滿一行 */
     background-color: rgb(255, 255, 255);
     box-shadow: rgb(253, 204, 67) 10px 10px;
