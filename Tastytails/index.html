@@ -15,7 +15,9 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
+
   <body>
     <!-- header -->
     <header>
@@ -63,7 +65,7 @@
     </header>
 
     <!-- banner -->
-    <div class="banner_index">
+    <div data-aos="fade-right" class="banner_index">
       <div class="banner_img">
         <img src="img/banner (1).jpg" alt="banner" class="banner-img" />
       </div>
@@ -84,7 +86,7 @@
       </div>
     </div>
 
-    <div class="middle_banner_fade_up_animate">
+    <div data-aos="flip-left" class="middle_banner_fade_up_animate">
       <div class="middle_banner_content">
         <img src="img/middle-banner.jpg" alt="middle-banner" />
         <div class="txt">
@@ -105,7 +107,7 @@
       </div>
     </div>
     <!-- about tast tails介紹 -->
-    <div class="last_banner">
+    <div data-aos="flip-left" class="last_banner">
       <div class="last_banner_content">
         <div class="h2_title">
           <h2>
@@ -127,7 +129,7 @@
       </div>
     </div>
     <!-- 商品分類categroies -->
-    <div class="categroies">
+    <div data-aos="fade-right" class="categroies">
       <div class="categroies_txt">
         <h2>
           <span>商品分類</span>
@@ -193,7 +195,7 @@
     </div>
 
     <!-- 新品上市 new-arrival-->
-    <div class="new_arrival">
+    <div data-aos="fade-right" class="new_arrival">
       <div class="new_arrival_txt">
         <h2>
           <span>新品上市</span>
@@ -206,7 +208,7 @@
           <img src="img/New Arrival.jpg" alt="New Arrival" />
         </div>
 
-        <div class="new_arrivel_content">
+        <div data-aos="fade-right" class="new_arrivel_content">
           <div class="new_arrival_txt">
             <h3>
               <span>大好評!!!</span>
@@ -226,7 +228,7 @@
     </div>
 
     <!-- 暢銷商品 Bast Sellers -->
-    <div class="bast_sellers">
+    <div data-aos="fade-right" class="bast_sellers">
       <div class="new_arrival_txt">
         <h2>
           <span>暢銷商品</span>
@@ -303,7 +305,7 @@
 
     <!-- 飼主心得 -->
 
-    <div class="owner_review">
+    <div data-aos="fade-right" class="owner_review">
       <div class="owner_review_txt">
         <h2>
           <span>飼主心得</span>
@@ -453,5 +455,9 @@
         <img src="img/top-icon.svg" alt="top-icon" />
       </a>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
