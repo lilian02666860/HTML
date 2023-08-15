@@ -255,7 +255,7 @@ h2 > span {
 }
 
 li a {
-  /* margin: -92px; */
+  margin: 10px;
 }
 .comment {
   text-align: center;
@@ -289,7 +289,7 @@ header {
 .navigation ul li {
   list-style-type: none;
   display: inline-block;
-  margin: 19px -12px;
+  margin: 16px 16px;
 }
 .navigation .icon {
   width: 54px;
@@ -314,8 +314,6 @@ header {
   color: #000000;
   text-decoration: none;
   position: relative;
-  /* width: 78px; */
-  display: inline-block;
 }
 
 .navigation ul li a::after {
@@ -351,7 +349,7 @@ header {
   display: flex;
 }
 .main-nav a {
-  /* padding: 10px; */
+  padding: 10px;
   text-decoration: none;
   color: #fff;
 }
